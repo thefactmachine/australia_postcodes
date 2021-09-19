@@ -1,0 +1,37 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leaflet)
+```
+
+## R Markdown
+
+
+## Including Plots
+
+
+
+```{r pressure, echo=FALSE}
+
+library(rmapshaper)
+
+
+
+sp_geo_json <- readRDS("/Users/mark/Documents/TEMP_not_on_cloud/australia_postcode_map/aus_pc_geo.rds")
+
+
+map <- readRDS("/Users/mark/Documents/TEMP_not_on_cloud/australia_postcode_map/leaflet_map.rds")
+
+map
+```
+
+
+
+
+
+
+

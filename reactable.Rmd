@@ -1,0 +1,12 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r frag, echo=FALSE}
+library(reactable)
+reactable(iris[1:10,])
+```
+
+
+

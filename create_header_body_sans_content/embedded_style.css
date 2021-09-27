@@ -1,0 +1,59 @@
+
+h1 {
+    font-family: 'helveticaregular';
+}
+
+
+h2 {
+    font-family: 'helveticaregular';
+}
+
+h3 {
+    font-family: 'helveticalight';
+}
+
+.h5_class {
+    color: #00ff00;
+}
+
+
+
+
+
+.p5_class {
+    color: #00ffff;
+}
+
+
+.button_class {
+    font-size: 10px;
+}
+
+
+
+img.leaflet-tile {
+    max-width: none !important;
+    max-height: none !important;
+
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#accordion {
+    width: 950px;
+}
+
+
+
+.leaflet-container {
+    border-radius: 10px !important;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+}

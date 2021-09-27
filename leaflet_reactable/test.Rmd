@@ -1,0 +1,12 @@
+---
+title: "nothing"
+output:
+  html_fragment:
+    keep_md: true
+
+---
+
+```{r frag, echo=FALSE}
+library(reactable)
+reactable(iris[1:10,])
+```

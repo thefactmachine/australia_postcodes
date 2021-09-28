@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div>
+    <ul class="nav nav-tabs tab-postcode">
+        <!--These are the actual tabs-->
+        <li class="active"><a data-toggle="tab" href="#re_pc_all_count">Top 20 by count</a></li>
+        <li><a data-toggle="tab" href="#re_pc_all_value">Top 20 by value</a></li>
+        <li><a data-toggle="tab" href="#re_pc_all_count_larger">Top 20 by value (larger areas)</a></li>
+        <li><a data-toggle="tab" href="#re_pc_all_value_larger">Top 20 by value (larger areas)</a></li>
+    </ul>
+    
+    <div class="tab-content">
+        
+        <!--content of tab 1-->
+        <div id="re_pc_all_count" class="tab-pane fade in active">
+            <p class="tab-intro">Postcode data for all areas. Top 20 postcodes by count of SMR reports. Displaying all areas.</p>          
+        </div>
+        
+        <!--content of tab 2-->
+        <div id="re_pc_all_value" class="tab-pane fade">
+            <p class="tab-intro">Postcode data for all areas.  Top 20 postcodes by value. Displaying all areas.</p>
+        </div>
+        
+        <!--content of tab 3-->
+        <div id="re_pc_all_count_larger" class="tab-pane fade">
+            <p class="tab-intro">Postcode data for larger areas.  Top 20 by count. Displaying areas greater than 15 square kilometres.</p>
+        </div>
+        
+        <!--content of tab 4-->
+        <div id="re_pc_all_value_larger" class="tab-pane fade">
+            <p class="tab-intro">Postcode data for larger areas.  Top 20 by value. Areas greater than 15 square kilometres.</p>
+        </div>   
+  
+    </div>
+    
+ </div>
+
+

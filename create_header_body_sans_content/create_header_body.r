@@ -62,6 +62,7 @@ xml_find_first(xml_doc , "/html/head") %>%
 # add meta elements
 c(1, 4, 5) %>% purrr::map(fn_add_meta)
 
+
 # add in style bits
 seq_along(xml_nodes_style) %>% purrr::map(fn_add_style)
 

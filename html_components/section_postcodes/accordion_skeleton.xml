@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="container">
+    <h2>Here is the accordion</h2>
+    
+    <div class="panel-group" id="accordion">
+        
+        
+        <div class="panel panel-default"> <!-- start of panel --> 
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-one">ATO Residential postcodes</a>
+                </h4>
+            </div>
+            <div id="collapse-one" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <p>The graphic below shows 36 months of data.  Details for 348,850 ATO postal addresses are shown</p>
+                </div>
+            </div>
+        </div>  <!-- end of panel --> 
+        
+        <div class="panel panel-default"> <!-- start of panel --> 
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-two">ATO MCID postcodes</a>
+                </h4>
+            </div>
+            <div id="collapse-two" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>The graphic below shows 36 months of data.  Details for 348,850 ATO postal addresses are shown</p>
+                </div>
+            </div>
+        </div>  <!-- end of panel --> 
+        
+        
+        <div class="panel panel-default"> <!-- start of panel --> 
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-three">Reporting entity postcodes</a>
+                </h4>
+            </div>
+            <div id="collapse-three" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>The graphic below shows 36 months of data.  Details for 348,850 ATO postal addresses are shown</p>
+                </div>
+            </div>
+        </div>  <!-- end of panel -->   
+ 
+ 
+    </div>  <!-- accordion -->  
+
+</div> <!-- container -->

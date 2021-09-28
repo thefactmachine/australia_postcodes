@@ -1,0 +1,12 @@
+---
+title: "nothing"
+output:
+  html_fragment:
+    keep_md: true
+
+---
+
+```{r frag, echo=FALSE}
+rct_object <- readRDS('rct_tbl_postcode_6.rds')
+rct_object
+```

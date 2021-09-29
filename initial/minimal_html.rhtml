@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>A minimal knitr example in HTML</title>
+
+
+
+<!--begin.rcode warning=FALSE, results = 'asis', echo = FALSE
+cat(readLines("insert_base64_vers_two.html"))
+end.rcode-->
+
+
+
+<!--begin.rcode warning=FALSE, results = 'asis', echo = FALSE
+cat("<style>")
+cat(readLines("style_minimal.css"))
+cat("</style>")
+end.rcode-->
+
+</head>
+
+  
+  
+  <body>
+<!--begin.rcode
+  library(knitr)
+  library(reactable)
+  opts_chunk$set(fig.width=5, fig.height=5)
+end.rcode-->
+
+  <p>This is a minimal example which shows <strong>knitr</strong>
+  working with HTML
+  pages. See <a href="https://rawgit.com/yihui/knitr-examples/master/003-minimal.html">here</a>
+  for the output and
+  <a href="https://github.com/yihui/knitr-examples/blob/master/003-minimal.Rhtml">here</a>
+  for the source.</p>
+
+  <p>Boring stuff as usual:</p>
+
+
+<!--begin.rcode echo=FALSE
+tags$h3("This is a map")
+map <- readRDS("/Users/mark/Documents/TEMP_not_on_cloud/australia_postcode_map/leaflet_map.rds")
+map
+tags$p("That was a map")
+end.rcode-->
+
+
+
+  
+<p>/Users/mark/Library/Application Support/PhantomJS</p>
+
+
+
+<h1>Here we go</h1>
+
+
+
+<!--begin.rcode warning=FALSE, results = 'asis', echo = FALSE
+
+cat(readLines("reactable_fragment.html"))
+
+end.rcode-->
+
+
+
+  
+
+<!--begin.rcode warning=FALSE
+    library(rgl)
+    knit_hooks$set(rgl = hook_rgl)  # set up the hook first
+    end.rcode-->
+
+<!--begin.rcode fancy-rgl, rgl=TRUE, fig.align='center', fig.width=4, fig.height=4, warning=FALSE
+    demo('bivar', package='rgl', echo=FALSE)
+    par3d(zoom=.7)
+    end.rcode-->
+
+  <p>Well, everything seems to be working. Let's ask R what is the
+  value of &pi;? Of course it is <!--rinline pi -->.</p>
+
+</body>
+</html>

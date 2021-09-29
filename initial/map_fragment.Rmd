@@ -1,0 +1,21 @@
+---
+output:
+  html_fragment:
+    keep_md: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(leaflet)
+library(htmltools)
+```
+
+
+
+```{r pressure, echo=FALSE, class="mark_map_class"}
+tags$h3("This is a map")
+map <- readRDS("/Users/mark/Documents/TEMP_not_on_cloud/australia_postcode_map/leaflet_map.rds")
+map
+tags$p("That was a map")
+```

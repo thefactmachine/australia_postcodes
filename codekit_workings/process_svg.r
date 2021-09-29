@@ -47,11 +47,12 @@ vct_9 <- gsub("st9", "sx9", vct_8)
 writeLines(vct_9, "header_mockup_v006_fixed.svg")
 
 
-
+setwd("/Users/mark/Documents/TEMP_not_on_cloud/australia_postcode_map/codekit_workings")
 
 pth <- path(str_path_repo, "svg", "footer_ul_fin.svg")
 pth_fixed <- path(str_path_repo, "svg", "footer_ul_fin_fixed.svg")
-txt <- readLines(pth)
+
+txt <- readLines("footer_ul_fin.svg")
 
 vct_0 <- gsub("st0", "zx0", txt)
 vct_1 <- gsub("st1", "zx1", vct_0)
@@ -66,4 +67,4 @@ vct_8 <- gsub("st8", "zx8", vct_7)
 vct_9 <- gsub("st9", "zx9", vct_8)
 vct_10 <- gsub("st10", "zx10", vct_8)
 
-writeLines(vct_9, pth_fixed)
+writeLines(vct_9, "footer_ul_fin_fixed.svg")
